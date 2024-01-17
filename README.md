@@ -1,65 +1,46 @@
-<p align="center">
-  <a href="https://getstisla.com">
-    <img src="https://avatars2.githubusercontent.com/u/45754626?s=75&v=4" alt="Stisla logo" width="75" height="75">
-  </a>
-</p>
+# DEV2FRIEND: Collaborative Social Platform for Developers</h1>
 
-<h1 align="center">Stisla for CodeIgniter</h1>
+- Welcome to DEV2FRIEND, a collaborative social platform designed to connect and empower graduating computer science students in a virtual setting.
 
-<p align="center">
-  Stisla is Free Bootstrap Admin Template and will help you to speed up your project, design your own dashboard UI and the users will love it.
-</p>
 
-[![Stisla Preview](https://camo.githubusercontent.com/2135e0f6544a7286a3412cdc3df32d47fc91b045/68747470733a2f2f692e6962622e636f2f3674646d6358302f323031382d31312d31312d31352d33352d676574737469736c612d636f6d2e706e67)](https://getstisla.com)
+## Project Overview
 
-## Table of contents
+DEV2FRIEND is the result of a dedicated university thesis project undertaken from January 2023 to April 2023. The primary goal was to address the challenge of fostering collaboration among graduating computer science students by providing a platform to share project ideas, match with like-minded peers, and form project groups based on shared expertise and interests.
 
-- [Link Stisla](#link-stisla)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#License)
+## Project Highlights
 
-## Link Stisla
-- Homepage: [getstisla.com](https://getstisla.com)
-- Repository: [github.com/stisla/stisla](https://github.com/stisla/stisla)
-- Documentation: [getstisla.com/docs](https://getstisla.com/docs)
+- **Collaborative Social Platform:** DEV2FRIEND serves as a virtual hub for graduating computer science students, enabling them to connect, collaborate, and share ideas in a dynamic online environment.
 
-## Installation
-- [Download the latest release](https://github.com/KhidirDotID/stisla-codeigniter/archive/v1.0.0.zip).
-or clone the repo :
-```
-https://github.com/KhidirDotID/stisla-codeigniter.git
-```
+- **Technological Stack:**
+  - PHP CodeIgniter: A robust framework for building web applications.
+  - HTML5/CSS3: Ensuring a modern and responsive user interface.
+  - Bootstrap: Enhancing the overall design and user experience.
+  - XAMPP: Facilitating a local development environment.
+  - MySQL: Providing a reliable database management system.
 
-## Usage
-- Create a new Controller at `application/controllers` then put like this:
-```
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+- **Increased Collaboration:** DEV2FRIEND has achieved tangible outcomes by fostering increased collaboration among students. Successful project matches and enhanced networking demonstrate the platform's effectiveness.
 
-class Controller_name extends CI_Controller {
+## Getting Started
 
-	public function index() {
-		$data = array(
-			'title' => "Your title"
-		);
-		$this->load->view('View_name', $data);
-	}
-}
-?>
-```
-- Create a new View at `application/views` then put like this:
-```
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-$this->load->view('dist/_partials/header'); ?>
+To get started with DEV2FRIEND, follow these steps:
 
-      <!-- Main Content -->
+1. Clone the repository:
+- git clone https://github.com/AmielDeLosReyes/dev2friend-university-thesis.git
 
-<?php
-$this->load->view('dist/_partials/footer'); ?>
-```
+2. Set up a local development environment using XAMPP or a similar tool.
+
+3. Navigate to the project directory and run the application.
+
+## Contributing
+
+We welcome contributions from developers to enhance DEV2FRIEND further. If you have ideas, suggestions, or improvements, feel free to submit a pull request.
 
 ## License
 
-Stisla is under the [MIT License](LICENSE).
+DEV2FRIEND is under the [MIT License](LICENSE).
+
+## Connect with Us
+
+- Visit the [DEV2FRIEND Website](https://dev2friend.ca)
+- Repository: [github.com/your-username/dev2friend](https://github.com/AmielDeLosReyes/dev2friend-university-thesis)
+
